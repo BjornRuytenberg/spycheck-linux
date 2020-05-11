@@ -548,7 +548,7 @@ def main():
             print("{0}Please verify a lightning symbol is printed alongside these ports."
                   "{0}{0}If you have no Thunderbolt devices to connect, Spycheck cannot verify"
                   " whether your system is vulnerable. "
-                  "{0}Please refer to https://thunderbolt.io for instructions on how to check"
+                  "{0}Please refer to https://thunderspy.io for instructions on how to check"
                   " manually instead.{0}".format(os.linesep))
             if args.assumeYes:
                 print("No controllers found. Interactive mode disabled, so aborting.")
